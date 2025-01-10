@@ -1,0 +1,69 @@
+@model CarRentalManagement.Models.Registration
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-sm p-4" style="max-width: 400px; width: 100%;">
+        <h2 class="text-center mb-4">Register</h2>
+
+        <form method="post" asp-action="Register" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label asp-for="Username" class="font-weight-bold"></label>
+                <input asp-for="Username" class="form-control" placeholder="Enter your username" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password" class="font-weight-bold"></label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="ConfirmPassword" class="font-weight-bold">Confirm Password</label>
+                <input id="ConfirmPassword" type="password" name="ConfirmPassword" class="form-control" placeholder="Retype your password" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="font-weight-bold"></label>
+                <input asp-for="PhoneNumber" class="form-control" placeholder="Enter your phone number" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input asp-for="Role" type="hidden" value="User" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+<!-- Load jQuery first -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Then load jQuery Validate -->
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.0/jquery.validate.min.js"></script>
+
+<script src="https://ajax.aspnetcdn.com/ajax/aspnetcore/3.1/aspnetcore.js"></script>
+
+<script>
+    function validateForm() {
+        // Example validation logic: Check if passwords match
+        var password = document.getElementById("Password").value;
+        var confirmPassword = document.getElementById("ConfirmPassword").value;
+
+        if (password !== confirmPassword) {
+            alert("Passwords do not match!");
+            return false;  // Prevent form submission if validation fails
+        }
+
+        return true;  // Allow form submission if validation passes
+    }
+</script>

@@ -1,0 +1,46 @@
+@model IEnumerable<CarRentalManagement.Models.Booking>
+
+@{
+    ViewData["Title"] = "Booking List";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-end">
+        <a href="@Url.Action("Login", "Admin")" class="btn btn-danger">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </a>
+    </div>
+    <h1 class="display-4 text-center mb-4">Booking List</h1>
+
+    <div class="mb-3">
+        <a href="@Url.Action("Add", "Booking")" class="btn btn-success btn-lg">Add New Booking</a>
+    </div>
+
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Car</th>
+                <th>Customer</th>
+                <th>Booking Date</th>
+                <th>Return Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr>
+                    <td>@booking.Car.Model</td>
+                    <td>@booking.Customer.FirstName</td>
+                    <td>@booking.BookingDate.ToShortDateString()</td>
+                    <td>@booking.ReturnDate.ToShortDateString()</td>
+                    <td>
+                        <a href="@Url.Action("Details", "Booking", new { id = booking.Id })" class="btn btn-info btn-sm">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />

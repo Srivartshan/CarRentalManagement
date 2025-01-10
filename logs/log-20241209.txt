@@ -1,0 +1,143 @@
+2024-12-09 21:21:50.703 +05:30 [INF] User profile is available. Using 'C:\Users\srivartshan.mani\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-09 21:21:50.815 +05:30 [INF] Now listening on: http://localhost:5207
+2024-12-09 21:21:50.817 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 21:21:50.818 +05:30 [INF] Hosting environment: Development
+2024-12-09 21:21:50.819 +05:30 [INF] Content root path: C:\Users\srivartshan.mani\Desktop\CarRentalManagement
+2024-12-09 21:22:02.834 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/ - null null
+2024-12-09 21:22:02.845 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-12-09 21:22:02.932 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.HomeController.Index (CarRentalManagement)'
+2024-12-09 21:22:02.952 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarRentalManagement.Controllers.HomeController (CarRentalManagement).
+2024-12-09 21:22:02.954 +05:30 [INF] HomeController initialized.
+2024-12-09 21:22:02.957 +05:30 [INF] Index action called.
+2024-12-09 21:22:02.970 +05:30 [INF] Executing ViewResult, running view Index.
+2024-12-09 21:22:03.034 +05:30 [INF] Executed ViewResult - view Index executed in 64.2069ms.
+2024-12-09 21:22:03.051 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-12-09 21:22:03.052 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2024-12-09 21:22:03.052 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/CarRentalManagement.styles.css?v=RYJ9pHxlpCYCc89lXZ52aNDgnMACdV06iYChj2Nyx_o - null null
+2024-12-09 21:22:03.052 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - null null
+2024-12-09 21:22:03.061 +05:30 [INF] Executed action CarRentalManagement.Controllers.HomeController.Index (CarRentalManagement) in 106.3114ms
+2024-12-09 21:22:03.068 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 16.8618ms
+2024-12-09 21:22:03.068 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 404 0 null 16.0671ms
+2024-12-09 21:22:03.068 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/CarRentalManagement.styles.css?v=RYJ9pHxlpCYCc89lXZ52aNDgnMACdV06iYChj2Nyx_o - 404 0 null 16.5564ms
+2024-12-09 21:22:03.072 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - 404 0 null 19.247ms
+2024-12-09 21:22:03.073 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.HomeController.Index (CarRentalManagement)'
+2024-12-09 21:22:03.077 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2024-12-09 21:22:03.078 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/css/site.css, Response status code: 404
+2024-12-09 21:22:03.080 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/CarRentalManagement.styles.css, Response status code: 404
+2024-12-09 21:22:03.083 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/jquery/dist/jquery.min.js, Response status code: 404
+2024-12-09 21:22:03.085 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/ - 200 null text/html; charset=utf-8 253.9116ms
+2024-12-09 21:22:03.087 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-12-09 21:22:03.098 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-12-09 21:22:03.101 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 3.8085ms
+2024-12-09 21:22:03.101 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 14.5388ms
+2024-12-09 21:22:03.104 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/js/site.js, Response status code: 404
+2024-12-09 21:22:03.109 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2024-12-09 21:22:03.131 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/your-image-url.jpg - null null
+2024-12-09 21:22:03.136 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/your-image-url.jpg - 404 0 null 5.1981ms
+2024-12-09 21:22:03.138 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/your-image-url.jpg, Response status code: 404
+2024-12-09 21:22:04.615 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/Admin/Login - null null
+2024-12-09 21:22:04.617 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-09 21:22:04.619 +05:30 [INF] Route matched with {action = "Login", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CarRentalManagement.Controllers.AdminController (CarRentalManagement).
+2024-12-09 21:22:04.730 +05:30 [INF] AdminController initialized.
+2024-12-09 21:22:04.730 +05:30 [INF] Login (GET) action called.
+2024-12-09 21:22:04.732 +05:30 [INF] Executing ViewResult, running view Login.
+2024-12-09 21:22:04.798 +05:30 [INF] Executed ViewResult - view Login executed in 67.044ms.
+2024-12-09 21:22:04.799 +05:30 [INF] Executed action CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement) in 178.6356ms
+2024-12-09 21:22:04.800 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-09 21:22:04.804 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/Admin/Login - 200 null text/html; charset=utf-8 188.5904ms
+2024-12-09 21:22:04.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2024-12-09 21:22:04.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-12-09 21:22:04.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/CarRentalManagement.styles.css?v=RYJ9pHxlpCYCc89lXZ52aNDgnMACdV06iYChj2Nyx_o - null null
+2024-12-09 21:22:04.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - null null
+2024-12-09 21:22:04.814 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-12-09 21:22:04.815 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 404 0 null 3.7077ms
+2024-12-09 21:22:04.817 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 4.6165ms
+2024-12-09 21:22:04.818 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/CarRentalManagement.styles.css?v=RYJ9pHxlpCYCc89lXZ52aNDgnMACdV06iYChj2Nyx_o - 404 0 null 6.007ms
+2024-12-09 21:22:04.820 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - 404 0 null 7.8651ms
+2024-12-09 21:22:04.823 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 9.0919ms
+2024-12-09 21:22:04.827 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/css/site.css, Response status code: 404
+2024-12-09 21:22:04.829 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2024-12-09 21:22:04.831 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/CarRentalManagement.styles.css, Response status code: 404
+2024-12-09 21:22:04.834 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/jquery/dist/jquery.min.js, Response status code: 404
+2024-12-09 21:22:04.836 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2024-12-09 21:22:04.844 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-12-09 21:22:04.865 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 20.6585ms
+2024-12-09 21:22:04.871 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/js/site.js, Response status code: 404
+2024-12-09 21:22:45.710 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5207/Admin/Login - application/x-www-form-urlencoded 217
+2024-12-09 21:22:45.714 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-09 21:22:45.726 +05:30 [INF] Route matched with {action = "Login", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller CarRentalManagement.Controllers.AdminController (CarRentalManagement).
+2024-12-09 21:22:45.740 +05:30 [INF] AdminController initialized.
+2024-12-09 21:22:45.769 +05:30 [INF] Login (POST) action called: Attempting login for Username Admin.
+2024-12-09 21:22:47.374 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[@__username_0='?' (Size = 50), @__password_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Password], [a].[PhoneNumber], [a].[Username]
+FROM [Admins] AS [a]
+WHERE [a].[Username] = @__username_0 AND [a].[Password] = @__password_1
+2024-12-09 21:22:47.503 +05:30 [INF] Generating auth token for Username Admin.
+2024-12-09 21:22:47.507 +05:30 [INF] Accessing expired session, Key:875f5f2b-051b-fb0d-0d11-772ac6cf6301
+2024-12-09 21:22:47.511 +05:30 [INF] Login (POST) action succeeded: Admin Admin logged in successfully.
+2024-12-09 21:22:47.514 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Dashboard.
+2024-12-09 21:22:47.517 +05:30 [INF] Executed action CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement) in 1785.4348ms
+2024-12-09 21:22:47.519 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-09 21:22:47.525 +05:30 [INF] Session started; Key:875f5f2b-051b-fb0d-0d11-772ac6cf6301, Id:12b752c5-59de-e12d-7d4b-b7ba41389de5
+2024-12-09 21:22:47.535 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5207/Admin/Login - 302 0 null 1825.1075ms
+2024-12-09 21:22:47.568 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/Admin/Dashboard - null null
+2024-12-09 21:22:47.572 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.AdminController.Dashboard (CarRentalManagement)'
+2024-12-09 21:22:47.575 +05:30 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller CarRentalManagement.Controllers.AdminController (CarRentalManagement).
+2024-12-09 21:22:47.584 +05:30 [INF] AdminController initialized.
+2024-12-09 21:22:47.586 +05:30 [INF] Dashboard action called.
+2024-12-09 21:22:47.588 +05:30 [INF] Dashboard action succeeded: Admin Admin accessed dashboard.
+2024-12-09 21:22:47.590 +05:30 [INF] Executing ViewResult, running view Dashboard.
+2024-12-09 21:22:47.597 +05:30 [INF] Executed ViewResult - view Dashboard executed in 7.3252ms.
+2024-12-09 21:22:47.602 +05:30 [INF] Executed action CarRentalManagement.Controllers.AdminController.Dashboard (CarRentalManagement) in 23.9944ms
+2024-12-09 21:22:47.605 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.AdminController.Dashboard (CarRentalManagement)'
+2024-12-09 21:22:47.608 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/Admin/Dashboard - 200 null text/html; charset=utf-8 39.1428ms
+2024-12-09 21:22:47.608 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-12-09 21:22:47.609 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2024-12-09 21:22:47.609 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/CarRentalManagement.styles.css?v=RYJ9pHxlpCYCc89lXZ52aNDgnMACdV06iYChj2Nyx_o - null null
+2024-12-09 21:22:47.615 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-12-09 21:22:47.618 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 9.785ms
+2024-12-09 21:22:47.620 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 404 0 null 11.4796ms
+2024-12-09 21:22:47.623 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/CarRentalManagement.styles.css?v=RYJ9pHxlpCYCc89lXZ52aNDgnMACdV06iYChj2Nyx_o - 404 0 null 14.4987ms
+2024-12-09 21:22:47.625 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 9.8274ms
+2024-12-09 21:22:47.627 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2024-12-09 21:22:47.635 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/css/site.css, Response status code: 404
+2024-12-09 21:22:47.638 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/CarRentalManagement.styles.css, Response status code: 404
+2024-12-09 21:22:47.642 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/js/site.js, Response status code: 404
+2024-12-09 21:22:47.647 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - null null
+2024-12-09 21:22:47.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-12-09 21:22:47.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - 404 0 null 12.0643ms
+2024-12-09 21:22:47.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 10.1601ms
+2024-12-09 21:22:47.671 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/jquery/dist/jquery.min.js, Response status code: 404
+2024-12-09 21:22:47.674 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2024-12-09 21:23:22.658 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/Customer - null null
+2024-12-09 21:23:22.662 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.CustomerController.Index (CarRentalManagement)'
+2024-12-09 21:23:22.666 +05:30 [INF] Route matched with {action = "Index", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CarRentalManagement.Controllers.CustomerController (CarRentalManagement).
+2024-12-09 21:23:22.670 +05:30 [INF] CustomerController initialized.
+2024-12-09 21:23:22.673 +05:30 [INF] Index action called: Fetching customer list.
+2024-12-09 21:23:22.712 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Email], [c].[FullName], [c].[Phone]
+FROM [Customers] AS [c]
+2024-12-09 21:23:22.737 +05:30 [INF] Executing ViewResult, running view Index.
+2024-12-09 21:23:22.742 +05:30 [INF] Executed ViewResult - view Index executed in 5.5842ms.
+2024-12-09 21:23:22.745 +05:30 [INF] Executed action CarRentalManagement.Controllers.CustomerController.Index (CarRentalManagement) in 76.4851ms
+2024-12-09 21:23:22.747 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.CustomerController.Index (CarRentalManagement)'
+2024-12-09 21:23:22.754 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-12-09 21:23:22.754 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2024-12-09 21:23:22.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - null null
+2024-12-09 21:23:22.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/CarRentalManagement.styles.css?v=RYJ9pHxlpCYCc89lXZ52aNDgnMACdV06iYChj2Nyx_o - null null
+2024-12-09 21:23:22.757 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/Customer - 200 null text/html; charset=utf-8 98.7128ms
+2024-12-09 21:23:22.758 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 3.91ms
+2024-12-09 21:23:22.760 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 404 0 null 5.9119ms
+2024-12-09 21:23:22.761 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - 404 0 null 5.593ms
+2024-12-09 21:23:22.763 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/CarRentalManagement.styles.css?v=RYJ9pHxlpCYCc89lXZ52aNDgnMACdV06iYChj2Nyx_o - 404 0 null 7.7373ms
+2024-12-09 21:23:22.766 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-12-09 21:23:22.767 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2024-12-09 21:23:22.769 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/css/site.css, Response status code: 404
+2024-12-09 21:23:22.771 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/jquery/dist/jquery.min.js, Response status code: 404
+2024-12-09 21:23:22.773 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/CarRentalManagement.styles.css, Response status code: 404
+2024-12-09 21:23:22.776 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 9.0593ms
+2024-12-09 21:23:22.780 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-12-09 21:23:22.788 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2024-12-09 21:23:22.790 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 10.6582ms
+2024-12-09 21:23:22.794 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/js/site.js, Response status code: 404
+2024-12-09 21:23:44.425 +05:30 [INF] Application is shutting down...

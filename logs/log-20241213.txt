@@ -1,0 +1,129 @@
+2024-12-13 08:40:26.298 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/Car - null null
+2024-12-13 08:40:26.310 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.CarController.Index (CarRentalManagement)'
+2024-12-13 08:40:26.313 +05:30 [INF] Route matched with {action = "Index", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CarRentalManagement.Controllers.CarController (CarRentalManagement).
+2024-12-13 08:40:26.316 +05:30 [INF] CarController initialized.
+2024-12-13 08:40:26.317 +05:30 [INF] Fetching car list.
+2024-12-13 08:40:26.371 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[DailyRate], [c].[Make], [c].[Model], [c].[Year]
+FROM [Cars] AS [c]
+2024-12-13 08:40:26.378 +05:30 [INF] Car list fetched successfully.
+2024-12-13 08:40:26.380 +05:30 [INF] Executing ViewResult, running view Index.
+2024-12-13 08:40:26.387 +05:30 [INF] Executed ViewResult - view Index executed in 7.0667ms.
+2024-12-13 08:40:26.494 +05:30 [INF] Executed action CarRentalManagement.Controllers.CarController.Index (CarRentalManagement) in 178.0258ms
+2024-12-13 08:40:26.497 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2024-12-13 08:40:26.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-12-13 08:40:26.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-12-13 08:40:26.537 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-12-13 08:40:26.538 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - null null
+2024-12-13 08:40:26.544 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.CarController.Index (CarRentalManagement)'
+2024-12-13 08:40:26.567 +05:30 [INF] The file /css/site.css was not modified
+2024-12-13 08:40:26.568 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-12-13 08:40:26.571 +05:30 [INF] The file /js/site.js was not modified
+2024-12-13 08:40:26.583 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-12-13 08:40:26.586 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/Car - 200 null text/html; charset=utf-8 287.8873ms
+2024-12-13 08:40:26.587 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-12-13 08:40:26.596 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 62.6834ms
+2024-12-13 08:40:26.596 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 304 null text/css 98.8732ms
+2024-12-13 08:40:26.609 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 75.2082ms
+2024-12-13 08:40:26.617 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 79.2116ms
+2024-12-13 08:40:26.847 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/jquery/dist/jquery.min.js - 304 null text/javascript 308.5358ms
+2024-12-13 08:40:27.170 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2024-12-13 08:40:27.188 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-12-13 08:40:27.196 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css.map was not modified
+2024-12-13 08:40:27.199 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map was not modified
+2024-12-13 08:40:27.202 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/css/bootstrap.min.css.map - 304 null text/plain 32.5863ms
+2024-12-13 08:40:27.203 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 304 null text/plain 14.816ms
+2024-12-13 08:40:48.405 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/Admin/Login - null null
+2024-12-13 08:40:48.407 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-13 08:40:48.410 +05:30 [INF] Route matched with {action = "Login", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CarRentalManagement.Controllers.AdminController (CarRentalManagement).
+2024-12-13 08:40:48.417 +05:30 [INF] AdminController initialized.
+2024-12-13 08:40:48.420 +05:30 [INF] Login (GET) action called.
+2024-12-13 08:40:48.423 +05:30 [INF] Executing ViewResult, running view Login.
+2024-12-13 08:40:48.430 +05:30 [INF] Executed ViewResult - view Login executed in 8.6244ms.
+2024-12-13 08:40:48.432 +05:30 [INF] Executed action CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement) in 15.6196ms
+2024-12-13 08:40:48.433 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-13 08:40:48.435 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/Admin/Login - 200 null text/html; charset=utf-8 29.3163ms
+2024-12-13 08:40:51.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/ - null null
+2024-12-13 08:40:51.614 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.HomeController.Index (CarRentalManagement)'
+2024-12-13 08:40:51.616 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarRentalManagement.Controllers.HomeController (CarRentalManagement).
+2024-12-13 08:40:51.621 +05:30 [INF] HomeController initialized.
+2024-12-13 08:40:51.623 +05:30 [INF] Index action called.
+2024-12-13 08:40:51.626 +05:30 [INF] Executing ViewResult, running view Index.
+2024-12-13 08:40:51.631 +05:30 [INF] Executed ViewResult - view Index executed in 6.1233ms.
+2024-12-13 08:40:51.635 +05:30 [INF] Executed action CarRentalManagement.Controllers.HomeController.Index (CarRentalManagement) in 14.1983ms
+2024-12-13 08:40:51.641 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.HomeController.Index (CarRentalManagement)'
+2024-12-13 08:40:51.644 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/ - 200 null text/html; charset=utf-8 32.1741ms
+2024-12-13 08:40:51.668 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/your-image-url.jpg - null null
+2024-12-13 08:40:51.670 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/your-image-url.jpg - 404 0 null 2.2618ms
+2024-12-13 08:40:51.675 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/your-image-url.jpg, Response status code: 404
+2024-12-13 08:41:00.357 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/Admin/Login - null null
+2024-12-13 08:41:00.360 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-13 08:41:00.364 +05:30 [INF] Route matched with {action = "Login", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CarRentalManagement.Controllers.AdminController (CarRentalManagement).
+2024-12-13 08:41:00.371 +05:30 [INF] AdminController initialized.
+2024-12-13 08:41:00.372 +05:30 [INF] Login (GET) action called.
+2024-12-13 08:41:00.372 +05:30 [INF] Executing ViewResult, running view Login.
+2024-12-13 08:41:00.374 +05:30 [INF] Executed ViewResult - view Login executed in 1.9152ms.
+2024-12-13 08:41:00.385 +05:30 [INF] Executed action CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement) in 13.904ms
+2024-12-13 08:41:00.399 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-13 08:41:00.401 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/Admin/Login - 200 null text/html; charset=utf-8 44.2893ms
+2024-12-13 08:41:31.171 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5207/Admin/Login - application/x-www-form-urlencoded 217
+2024-12-13 08:41:31.173 +05:30 [INF] CORS policy execution successful.
+2024-12-13 08:41:31.174 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-13 08:41:31.175 +05:30 [INF] Route matched with {action = "Login", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller CarRentalManagement.Controllers.AdminController (CarRentalManagement).
+2024-12-13 08:41:31.179 +05:30 [INF] AdminController initialized.
+2024-12-13 08:41:31.184 +05:30 [INF] Login (POST) action called: Attempting login for Username Admin.
+2024-12-13 08:41:31.195 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__username_0='?' (Size = 50), @__password_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Password], [a].[PhoneNumber], [a].[Username]
+FROM [Admins] AS [a]
+WHERE [a].[Username] = @__username_0 AND [a].[Password] = @__password_1
+2024-12-13 08:41:31.199 +05:30 [INF] Generating auth token for Username Admin.
+2024-12-13 08:41:31.201 +05:30 [INF] Accessing expired session, Key:f8fe95df-cbc3-2926-22ab-99eb3ebde20e
+2024-12-13 08:41:31.202 +05:30 [INF] Login (POST) action succeeded: Admin Admin logged in successfully.
+2024-12-13 08:41:31.204 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Dashboard.
+2024-12-13 08:41:31.206 +05:30 [INF] Executed action CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement) in 27.001ms
+2024-12-13 08:41:31.207 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.AdminController.Login (CarRentalManagement)'
+2024-12-13 08:41:31.209 +05:30 [INF] Session started; Key:f8fe95df-cbc3-2926-22ab-99eb3ebde20e, Id:08130794-11ce-6a88-32e1-fdfa56eb6760
+2024-12-13 08:41:31.211 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5207/Admin/Login - 302 0 null 39.9847ms
+2024-12-13 08:41:31.330 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/Admin/Dashboard - null null
+2024-12-13 08:41:31.397 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.AdminController.Dashboard (CarRentalManagement)'
+2024-12-13 08:41:31.399 +05:30 [INF] Route matched with {action = "Dashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Dashboard() on controller CarRentalManagement.Controllers.AdminController (CarRentalManagement).
+2024-12-13 08:41:31.402 +05:30 [INF] AdminController initialized.
+2024-12-13 08:41:31.404 +05:30 [INF] Dashboard action called.
+2024-12-13 08:41:31.456 +05:30 [INF] Dashboard action succeeded: Admin Admin accessed dashboard.
+2024-12-13 08:41:31.459 +05:30 [INF] Executing ViewResult, running view Dashboard.
+2024-12-13 08:41:31.462 +05:30 [INF] Executed ViewResult - view Dashboard executed in 4.3628ms.
+2024-12-13 08:41:31.471 +05:30 [INF] Executed action CarRentalManagement.Controllers.AdminController.Dashboard (CarRentalManagement) in 69.0777ms
+2024-12-13 08:41:31.474 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.AdminController.Dashboard (CarRentalManagement)'
+2024-12-13 08:41:31.479 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/Admin/Dashboard - 200 null text/html; charset=utf-8 147.9647ms
+2024-12-13 08:41:33.084 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/Booking - null null
+2024-12-13 08:41:33.089 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.BookingController.Index (CarRentalManagement)'
+2024-12-13 08:41:33.090 +05:30 [INF] Route matched with {action = "Index", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CarRentalManagement.Controllers.BookingController (CarRentalManagement).
+2024-12-13 08:41:33.095 +05:30 [INF] BookingController initialized.
+2024-12-13 08:41:33.096 +05:30 [INF] Index action called: Fetching booking list.
+2024-12-13 08:41:33.108 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[BookingDate], [b].[CarId], [b].[CustomerId], [b].[ReturnDate], [c].[Id], [c].[DailyRate], [c].[Make], [c].[Model], [c].[Year], [c0].[Id], [c0].[Address], [c0].[Email], [c0].[FirstName], [c0].[LastName], [c0].[Phone]
+FROM [Bookings] AS [b]
+INNER JOIN [Cars] AS [c] ON [b].[CarId] = [c].[Id]
+INNER JOIN [Customers] AS [c0] ON [b].[CustomerId] = [c0].[Id]
+2024-12-13 08:41:33.112 +05:30 [INF] Index action: Booking list fetched successfully.
+2024-12-13 08:41:33.114 +05:30 [INF] Executing ViewResult, running view Index.
+2024-12-13 08:41:33.116 +05:30 [INF] Executed ViewResult - view Index executed in 2.4865ms.
+2024-12-13 08:41:33.122 +05:30 [INF] Executed action CarRentalManagement.Controllers.BookingController.Index (CarRentalManagement) in 26.2927ms
+2024-12-13 08:41:33.127 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.BookingController.Index (CarRentalManagement)'
+2024-12-13 08:41:33.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/Booking - 200 null text/html; charset=utf-8 54.9515ms
+2024-12-13 08:41:36.484 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5207/Booking/Add - null null
+2024-12-13 08:41:36.486 +05:30 [INF] Executing endpoint 'CarRentalManagement.Controllers.BookingController.Add (CarRentalManagement)'
+2024-12-13 08:41:36.491 +05:30 [INF] Route matched with {action = "Add", controller = "Booking"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add() on controller CarRentalManagement.Controllers.BookingController (CarRentalManagement).
+2024-12-13 08:41:36.495 +05:30 [INF] BookingController initialized.
+2024-12-13 08:41:36.496 +05:30 [INF] Add (GET) action called: Rendering booking addition form.
+2024-12-13 08:41:36.502 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[DailyRate], [c].[Make], [c].[Model], [c].[Year]
+FROM [Cars] AS [c]
+2024-12-13 08:41:36.512 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Phone]
+FROM [Customers] AS [c]
+2024-12-13 08:41:36.516 +05:30 [INF] Executing ViewResult, running view Add.
+2024-12-13 08:41:36.519 +05:30 [INF] Executed ViewResult - view Add executed in 3.2559ms.
+2024-12-13 08:41:36.520 +05:30 [INF] Executed action CarRentalManagement.Controllers.BookingController.Add (CarRentalManagement) in 24.6214ms
+2024-12-13 08:41:36.523 +05:30 [INF] Executed endpoint 'CarRentalManagement.Controllers.BookingController.Add (CarRentalManagement)'
+2024-12-13 08:41:36.524 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5207/Booking/Add - 200 null text/html; charset=utf-8 40.2505ms

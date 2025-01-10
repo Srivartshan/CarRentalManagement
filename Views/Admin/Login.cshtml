@@ -1,0 +1,97 @@
+@model CarRentalManagement.Models.Admin
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-sm p-4" style="max-width: 400px; width: 100%;">
+        <h2 class="text-center mb-4">Login</h2>
+
+        <div id="error-message" class="alert alert-danger text-center" role="alert" style="display: @(string.IsNullOrEmpty(ViewBag.ErrorMessage) ? "none" : "block");">
+            @ViewBag.ErrorMessage
+        </div>
+
+        <form method="post" asp-action="Login" novalidate>
+            <div class="form-group">
+                <label asp-for="Username" class="font-weight-bold"></label>
+                <input asp-for="Username" id="username" class="form-control" placeholder="Enter your username" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password" class="font-weight-bold"></label>
+                <input asp-for="Password" id="password" type="password" class="form-control" placeholder="Enter your password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </div>
+        </form>
+
+        <div class="text-center mt-3">
+            <p>If you don't have an account, <a asp-action="Register" class="btn btn-link">Register here</a></p>
+        </div>
+    </div>
+</div>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const errorMessage = document.getElementById("error-message");
+        const usernameInput = document.getElementById("username");
+        const passwordInput = document.getElementById("password");
+
+        const clearErrorMessage = () => {
+            if (errorMessage) {
+                errorMessage.style.display = "none";
+            }
+        };
+
+        usernameInput.addEventListener("input", clearErrorMessage);
+        passwordInput.addEventListener("input", clearErrorMessage);
+    });
+</script>
+
+<style>
+    .min-vh-100 {
+        min-height: 100vh;
+    }
+
+    .card {
+        border-radius: 8px;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.75rem;
+        font-size: 1.1rem;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .btn-link {
+        font-size: 1rem;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .btn-link:hover {
+        text-decoration: underline;
+    }
+</style>

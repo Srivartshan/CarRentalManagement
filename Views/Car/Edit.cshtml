@@ -1,0 +1,60 @@
+@model CarRentalManagement.Models.Car
+
+@{
+    ViewData["Title"] = "Edit Car";
+}
+
+<div class="container mt-5">
+    <h1 class="display-4 text-center mb-4">Edit Car</h1>
+
+    <form asp-action="Edit" method="post">
+        <div class="form-group">
+            <label asp-for="Model">Model</label>
+            <input asp-for="Model" class="form-control" />
+            <span asp-validation-for="Model" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Make">Make</label>
+            <input asp-for="Make" class="form-control" />
+            <span asp-validation-for="Make" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Year">Year</label>
+            <input asp-for="Year" class="form-control" />
+            <span asp-validation-for="Year" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="DailyRate">Daily Rate</label>
+            <input asp-for="DailyRate" class="form-control" />
+            <span asp-validation-for="DailyRate" class="text-danger"></span>
+        </div>
+
+                <div class="form-group">
+            <label asp-for="SeatingCapacity">Seating Capacity</label>
+            <input asp-for="SeatingCapacity" class="form-control" />
+            <span asp-validation-for="SeatingCapacity" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="FuelType">Fuel Type</label>
+            <input asp-for="FuelType" class="form-control" />
+            <span asp-validation-for="FuelType" class="text-danger"></span>
+        </div>
+
+        <!-- Buttons in the same row -->
+        <div class="form-group row">
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-primary btn-block">Save Changes</button>
+            </div>
+            <div class="col-md-6">
+                <a asp-action="Index" class="btn btn-secondary btn-block">Cancel</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- Bootstrap CDN (ensure Bootstrap is included in the project) -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />

@@ -1,0 +1,38 @@
+@model CarRentalManagement.Models.Car
+
+<div class="container mt-5">
+    <h2 class="display-4 text-center mb-4">Car Details</h2>
+
+    <table class="table table-bordered table-striped">
+        <tbody>
+            <tr>
+                <td><strong>Make:</strong></td>
+                <td>@Model.Make</td>
+            </tr>
+            <tr>
+                <td><strong>Model:</strong></td>
+                <td>@Model.Model</td>
+            </tr>
+            <tr>
+                <td><strong>Year:</strong></td>
+                <td>@Model.Year</td>
+            </tr>
+            <tr>
+                <td><strong>Daily Rate:</strong></td>
+                <td>@Model.DailyRate</td>
+            </tr>
+            <tr>
+                <td><strong>Seating Capacity:</strong></td>
+                <td>@Model.SeatingCapacity</td>
+            </tr>
+            <tr>
+                <td><strong>Fuel Type:</strong></td>
+                <td>@Model.FuelType</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="@Url.Action("Index", "Car")" class="btn btn-secondary">Back to Car List</a>
+</div>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />

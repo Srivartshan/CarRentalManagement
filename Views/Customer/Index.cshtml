@@ -1,0 +1,48 @@
+@model IEnumerable<CarRentalManagement.Models.Customer>
+
+@{
+    ViewData["Title"] = "Customer List";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-end">
+        <a href="@Url.Action("Login", "Admin")" class="btn btn-danger">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </a>
+    </div>
+    <h1 class="display-4 text-center mb-4">Customer List</h1>
+
+    <a href="@Url.Action("Add", "Customer")" class="btn btn-primary mb-3">Add New Customer</a>
+
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@customer.FirstName</td>
+                    <td>@customer.Email</td>
+                    <td>@customer.Phone</td>
+                    <td>
+    <a href="@Url.Action("Details", "Customer", new { id = customer.Id })" class="btn btn-info btn-sm">Details</a>
+    <a href="@Url.Action("Edit", "Customer", new { id = customer.Id })" class="btn btn-warning btn-sm">Edit</a>
+    <form asp-action="Delete" asp-controller="Customer" asp-route-id="@customer.Id" method="post" class="d-inline">
+        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this customer?');">Delete</button>
+    </form>
+</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Bootstrap CDN (ensure Bootstrap is included in the project) -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
