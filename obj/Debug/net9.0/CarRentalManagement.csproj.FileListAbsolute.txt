@@ -228,8 +228,6 @@ C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\Serilog.S
 C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\Serilog.Sinks.File.dll
 C:\Users\srivartshan.mani\Desktop\CarRentalManagement\obj\Debug\net9.0\compressed\9wbw9umke1-dl2z4gwssw.gz
 C:\Users\srivartshan.mani\Desktop\CarRentalManagement\obj\Debug\net9.0\compressed\4472uhlhyr-dl2z4gwssw.gz
-C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\logs\log-20250102.json
-C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\logs\log-20250103.json
 C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\logs\log-20250106.json
 C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\logs\log-20250108.json
 C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\logs\log-20250109.json
@@ -248,3 +246,6 @@ C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\publish\l
 C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\publish\logs\log-20250109.json
 C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\publish\logs\log-20250109_001.json
 C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\logs\log-20250110.json
+C:\Users\srivartshan.mani\Desktop\CarRentalManagement\obj\Debug\net9.0\CarRentalManagement.sourcelink.json
+C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\logs\log-20250112.json
+C:\Users\srivartshan.mani\Desktop\CarRentalManagement\bin\Debug\net9.0\logs\log-20250113.json

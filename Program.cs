@@ -105,7 +105,7 @@ builder.Services.AddSession(options =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IGenericRepository<Car>,GenericRepository<Car>>();
 builder.Services.AddTransient<IGenericRepository<Admin>,GenericRepository<Admin>>();
-
+builder.Services.AddScoped<IGenericRepository<Booking>,GenericRepository<Booking>>();
 builder.Services.AddScoped<IApiRepository<Customer>>(provider =>
 {
     var configuration = provider.GetRequiredService<IConfiguration>();

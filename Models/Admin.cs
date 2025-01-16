@@ -26,8 +26,8 @@ namespace CarRentalManagement.Models
             ErrorMessage = "Phone number must be between 10 and 15 digits, can start with '+', and must not be a repetitive or invalid sequence.")]
         public string PhoneNumber { get; set; }
         
-        [Required(ErrorMessage = "Role is required.")]
-        [StringLength(20, ErrorMessage = "Role cannot exceed 20 characters.")]
-        public string Role { get; set; }
+        // [Required(ErrorMessage = "Role is required.")]
+        // [StringLength(20, ErrorMessage = "Role cannot exceed 20 characters.")]
+        // public string Role { get; set; }
     }
 }

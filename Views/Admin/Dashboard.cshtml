@@ -1,0 +1,83 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-4">Admin Dashboard</h1>
+        <a href="@Url.Action("Login", "Admin")" class="btn btn-danger" aria-label="Logout">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <a href="@Url.Action("Index", "Customer")" class="card shadow-sm border-primary text-center text-decoration-none">
+                <div class="card-body">
+                    <i class="fas fa-users fa-2x text-primary"></i>
+                    <h5 class="card-title mt-3">Manage Customers</h5>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="@Url.Action("Index", "Car")" class="card shadow-sm border-success text-center text-decoration-none">
+                <div class="card-body">
+                    <i class="fas fa-car fa-2x text-success"></i>
+                    <h5 class="card-title mt-3">Manage Cars</h5>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="@Url.Action("Index", "Booking")" class="card shadow-sm border-warning text-center text-decoration-none">
+                <div class="card-body">
+                    <i class="fas fa-calendar-check fa-2x text-warning"></i>
+                    <h5 class="card-title mt-3">Manage Bookings</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+<style>
+    .container {
+        max-width: 900px;
+    }
+
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 10px;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .card i {
+        margin-bottom: 10px;
+    }
+
+    .btn-danger {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+    .display-4 {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+
+    @* @media (max-width: 768px) {
+        .display-4 {
+            font-size: 2rem;
+        }
+
+        .btn-danger {
+            padding: 8px 12px;
+            font-size: 0.9rem;
+        }
+    } *@
+</style>
